@@ -185,7 +185,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 0, z: -10}
+  FollowOffset: {x: 0, y: 0, z: -5.42}
 --- !u!114 &122923219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,8 +237,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122923216}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000057539587, y: -0.00000004094677, z: 0.000000011859234, w: 1}
-  m_LocalPosition: {x: -32.98, y: 1, z: -10}
+  m_LocalRotation: {x: -0.000000015977973, y: 0.0000000018621743, z: 4.3456393e-17, w: 1}
+  m_LocalPosition: {x: -32.98, y: 1, z: -5.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -570,8 +570,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440416636}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000057539587, y: -0.00000004094677, z: -2.3560603e-15, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0.000000015977973, y: 0.0000000018621743, z: 2.975377e-17, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -717,16 +717,15 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"interval","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"obstaclePrefab","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"obstaclePrefab","value":{"$content":[0,1,2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 7654757759956454402, guid: 62dcde045a7f641449f21a60ec1f5c72, type: 3}
     - {fileID: 7654757759956454402, guid: 7f376f4dc2019f04ab180456c534eac0, type: 3}
-    - {fileID: 7654757759956454402, guid: 62dcde045a7f641449f21a60ec1f5c72, type: 3}
-    - {fileID: 7654757759956454402, guid: 62dcde045a7f641449f21a60ec1f5c72, type: 3}
-    - {fileID: 7654757759956454402, guid: 62dcde045a7f641449f21a60ec1f5c72, type: 3}
+    - {fileID: 7654757759956454402, guid: 98ed96cc99561a545b1693677fab1c5a, type: 3}
+    - {fileID: 7654757759956454402, guid: 658258e4053851e438b452aa5237fe70, type: 3}
+    - {fileID: 7654757759956454402, guid: fdc673cd23fb6234ebd7e60d87ca6ca8, type: 3}
 --- !u!1 &1150360712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,7 +1146,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: c9bc805edfc483f4b8394aef6569f613, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1412,7 +1411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 072d6bcabe071dc4698465c865c76e28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
